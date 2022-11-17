@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="搞笑禮物，地獄禮物，好玩禮物，搞怪禮物，有趣、好笑">
+    <meta name="description" content="笑禮藏刀創立於2022年，初衷以帶給大家有趣、好笑的選品，讓收禮與送禮的過程充滿趣味、歡笑。">
+    <meta name="author" content="黃書庭">
+    <title>笑禮藏刀 | Gifts can make you happy</title>
+
+    <!-- 本機寫法 -->
+    <link rel="stylesheet" href="bs/bootstrap.css">
+    <!-- 我的樣式表檔 -->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!--css hover開始-->
+    <link rel="stylesheet" href="css/hover.css">
+    <!--css hover結束-->
+
+    <!--css animate開始-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--css animate結束-->
+
+    <!--css imagehover開始-->
+    <link rel="stylesheet" href="css/imagehover.css">
+    <!--css imagehover結束-->
+
+</head>
+
+<body>
+    <header class="container-fluid">
+        <!-- 導覽列開始 -->
+        <div class="row">
+            <!-- navbar-expand-lg表示在 lg斷點時摺疊 -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <!-- logo -->
+                <a class="navbar-brand" href="index.html" id="logo">
+                    <img src="image/logo no BG 4.png" alt="logo">
+                </a>
+
+                <!-- 導覽列折疊時的開啟鈕 三橫線 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navArea"
+                    aria-controls="navArea" aria-expanded="show" aria-label="true">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 斷點群組和隱藏導覽列按鈕 -->
+                <!-- id要與data-bs-target選單區塊名稱相同 -->
+                <div class="collapse navbar-collapse" id="navArea">
+                    <!-- 導覽列開始 -->
+                    <ul class="navbar-nav w-100 d-flex justify-content-end">
+                        <!-- active表示當前頁面 -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">首頁</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">關於我們</a></li>
+                        <!-- 下拉選單 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                商品一覽
+                            </a>
+                            <!-- dropdown-menu-dark深色下拉式選單 -->
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdown">
+                                <li class="nav-item"><a class="nav-link" href="products.html">全部商品</a></li>
+                                <li class="nav-item"><a class="nav-link" href="newArrival.html">新品上市</a></li>
+                                <li class="nav-item"><a class="nav-link" href="products1.htm">500元以下</a></li>
+                                <li class="nav-item"><a class="nav-link" href="products2.htm">500~1000元</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contect.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- 導覽列結束 -->
+    </header>
+
+    <!-- 元件區 -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <!-- 導引連結區 圖片下方方塊點選區 -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- 輪播圖片顯示區 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/banner-01.jpg" class="w-100" alt="banner-01">
+                <!-- 輪播圖字幕 -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="image/banner-02.jpg" class="w-100" alt="banner-02">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="image/banner-04.jpg" class="w-100" alt="banner-03">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+
+        <!-- 左右箭頭 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev" id="bannerButtom">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row ">
+            <div class="col-12 col-md-4 footer-helpful">
+                <ul>
+                    <li>購物新手</li>
+                </ul>
+                <ul>
+                    <li><a href="aboutUs.html">關於我們</a></li>
+                    <li><a href="javascript;:">常見問題</a></li>
+                    <li><a href="javascript;:">購物須知</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-4 footer-contect">
+                <ul>
+                    <li>聯絡我們</li>
+                </ul>
+                <ul>
+                    <li>服務時間：10:00-17:00｜週一～週五</li>
+                    <li>客服信箱:hahagift@gmail.com</li>
+                    <li>聯絡電話:03-1234567</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-4 follow-us">
+                <ul>
+                    <li>關注我們</li>
+                </ul>
+                <ul>
+                    <a href="javascript;:" id="fb">
+                        <img src="image/fb.svg" alt="Facebook">
+                    </a>
+                    <a href="javascript;:" id="insta">
+                        <img src="image/insta.svg" alt="Instagram">
+                    </a>
+                    <a href="javascript;:" id="line">
+                        <img src="image/line.svg" alt="Line">
+                    </a>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+
+    <div class="container-fulid" id="footer-copyright">
+        <div class="row">
+            <div class="co-12">
+                <br>
+                <h5>
+                    笑裡藏刀 Copyright © 2022 All Rights Reserved
+                </h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="bs/bootstrap.bundle.js"></script>
+</body>
+
+</html>
