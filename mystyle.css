@@ -11,7 +11,7 @@ html {
     padding: 5px 26px;
 }
 
-nav{
+nav {
     background-color: #e7c436;
 }
 
@@ -19,22 +19,59 @@ nav{
     padding: 0px 18px 0px 0px;
 }
 
-.nav-item a {
+.nav-item .main-item {
     color: #fff;
+    font-size: 1.1rem;
+    border-bottom: 4px solid transparent;
 }
 
+.nav-item .main-item:hover {
+    color: #fff;
+    border-bottom: 4px solid #dea500;
+}
+
+header .dropdown-menu {
+    background-color: #fff;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.5);
+    border-radius: 0%;
+    border: 0px none;
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    color: #606060;
+}
+
+.dropdown-menu a:hover {
+    color: #dea500;
+}
+
+.dropdown-menu li:hover {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 footer {
     color: #fff;
     background-color: #e7c436;
+
+}
+
+footer .title {
+    font-size: 1.3rem;
 }
 
 footer li {
     list-style-type: none;
-    margin: 20px;
+    margin-top: 20px;
 }
 
-
+footer hr {
+    margin-top: 5px;
+}
 
 footer a {
     text-decoration: none;
@@ -43,22 +80,22 @@ footer a {
 
 .footer-helpful a:hover {
     text-decoration: none;
-    color: #565656;
+    color: #dea500;
 }
 
 footer .follow-us img {
     width: 40px;
-    margin-right: 15px;
+    margin-left: 18px;
     margin-top: 10px;
 }
 
-#footer-copyright{
+#footer-copyright {
     background-color: #e7c436;
 }
 
 #footer-copyright h5 {
     margin: 30px;
-    color: rgb(255, 235, 122);
+    color: #ffeb7a;
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
